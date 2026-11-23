@@ -1,0 +1,16 @@
+.nav {
+  display: flex;
+  justify-content: flex-start;
+  gap: 12px;
+}
+
+.nav button {
+  padding: 10px 16px;
+  cursor: pointer;
+}
+
+.auths{
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+}

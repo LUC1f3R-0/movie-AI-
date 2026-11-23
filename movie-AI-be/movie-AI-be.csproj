@@ -5,7 +5,7 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>movie_AI_be</RootNamespace>
-    <UserSecretsId>1684a125-38e7-4c9e-ac05-50393cdecf4b</UserSecretsId>
+    <UserSecretsId>1684a125-38e7-4c9e-ac05-50393cdecf4b</UserSecretsId>                                                                                                                                                                     
   </PropertyGroup>
 
 </Project>
