@@ -36,7 +36,8 @@ public class UserConfiguration : IEntityTypeConfiguration<User>
         builder.Property(u => u.Otp_Expired_atutc).IsRequired();
 
         builder.Property(u => u.Created_atutc).IsRequired();
-        
+
         builder.Property(u => u.Updated_atutc).IsRequired();
+        
     }
 }

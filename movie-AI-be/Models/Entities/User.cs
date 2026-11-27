@@ -20,4 +20,6 @@ public sealed class User
     public DateTimeOffset Updated_atutc { get; set; }
 
     public ICollection<Session> Sessions { get; set; } = new List<Session>();
+
+    public bool CanAccessSystem => Status == StatusTypes.Active && IsVerified;
 }
